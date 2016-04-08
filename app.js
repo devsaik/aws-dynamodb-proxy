@@ -10,7 +10,7 @@ AWS.config.update({
     region: "us-east-1",
     endpoint: endpointDynamoDB,
     httpOptions: {
-        agent: proxy('http://aws-proxy-dev-us-east-1.kdc.capitalone.com:8099')
+        agent: proxy('proxy-link')
     }
 });
 
